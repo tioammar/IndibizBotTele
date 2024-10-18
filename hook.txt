@@ -1,0 +1,4 @@
+To set hook use URL below
+https://api.telegram.org/bot7493229587:AAESypO_AJif5aP30uBfDC-s7Iud119xM7s/setwebhook?url=copyfromgoogleappscript
+
+Reset on every deployment update
