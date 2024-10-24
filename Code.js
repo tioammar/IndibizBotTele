@@ -20,7 +20,7 @@ function doPost(e) {
         case "/pengajuan":
           var text = "PINDAH GDOCS JT";
           break;
-        case "/undist":
+        case "/belumdistribusi":
           var text = "";
           break;
       }
