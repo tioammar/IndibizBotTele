@@ -1,6 +1,7 @@
 var token = "7493229587:AAESypO_AJif5aP30uBfDC-s7Iud119xM7s";
 var SheetID = "1sQwtqeVDatV8IkFXrExRi6wAM82l7ZIu84ZwxmOm1Js";
 
+
 function doPost(e) {
   var stringJson = e.postData.getDataAsString();
   var updates = JSON.parse(stringJson);
@@ -18,6 +19,9 @@ function doPost(e) {
           break;
         case "/pengajuan":
           var text = "PINDAH GDOCS JT";
+          break;
+        case "/undist":
+          var text = "";
           break;
       }
       sendText(updates.message.chat.id,checkOrderByStatus(text)); 
